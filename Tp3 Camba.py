@@ -75,15 +75,15 @@ else:
     print("Invalido, seleccione la opcion 1, 2 o 3")
 #Act N9
 magnitud= float(input("Por favor ingrese la magnitud del terremoto: "))
-if magnitud<2.9:
+if magnitud<3:
     print("Terremoto muy leve (imperceptible).")
-elif magnitud<3.9:
+elif magnitud<4:
     print("Terremoto leve (ligeramente perceptible).")
-elif magnitud<4.9:
+elif magnitud<5:
     print("Terremoto moderado(sentido por personas, pero generalmente no causa daños).")
-elif magnitud<5.9:
+elif magnitud<6:
     print("Terremoto fuerte (puede causar daños en estructuras debiles).")
-elif magnitud<6.9:
+elif magnitud<7:
     print("Terremoto muy fuerte (puede causar daños significativos).")
 elif magnitud>=7:
     print("terremoto extremo (puede causar graves daños a gran escala).")
